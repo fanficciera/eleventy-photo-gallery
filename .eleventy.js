@@ -2,6 +2,14 @@ const CleanCSS = require("clean-css");
 const { minify } = require("terser");
 const metagen = require("eleventy-plugin-metagen");
 const eleventyNavigation = require("@11ty/eleventy-navigation");
+const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
+
+module.exports = function(eleventyConfig) {
+  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
+  return {
+    pathPrefix: "/website/", // Replace with your repository name
+  };
+};
 const Image = require("@11ty/eleventy-img");
 
 module.exports = (eleventyConfig) => {
