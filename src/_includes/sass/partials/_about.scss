@@ -62,8 +62,8 @@
 
     button {
         margin-bottom: 36px;
-        background: rgb(27, 110, 226);
-        background: rgb(26, 107, 221);
+        background: rgb(255, 0, 170);
+        background: rgb(255, 0, 170);
         padding: 11px 1.35rem;
         border-radius: 3px;
         font-family: $system-font;
@@ -76,7 +76,7 @@
             &:hover {
                 border: none;
                 cursor: pointer;
-                background: rgb(23, 100, 209);
+                background: rgb(255, 152, 209);
             }
         
     }

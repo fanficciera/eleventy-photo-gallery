@@ -1,7 +1,6 @@
 [
     {
         "title": "Terrace with green plants on night street",
-        "date": "October 20, 2020",
         "credit": "Photo by Aldiyar Seitkassymov",
         "linkToAuthor": "https://www.pexels.com/photo/terrace-with-green-plants-on-night-street-3100835/",
         "src": "terrace-window.jpg",
@@ -10,7 +9,6 @@
     },
     {
         "title": "Aenyz Pinup",
-        "date": "October 20, 2025",
         "credit": "Illustration by Paz Campos",
         "linkToAuthor": "https://www.pexels.com/photo/highway-covered-in-water-2524368/",
         "src": "aenyz-pinup.png",
@@ -19,7 +17,6 @@
     },
     {
         "title": "Capybara Swimming",
-        "date": "October 20, 2025",
         "credit": "Client work for Fildi Game Studio",
         "linkToAuthor": "https://www.pexels.com/photo/highway-covered-in-water-2524368/",
         "src": "capybara-swimming.jpg",
@@ -37,7 +34,6 @@
     },
     {
         "title": "Palau",
-        "date": "October 18, 2020",
         "credit": "Client work for Fildi Game Studio",
         "linkToAuthor": "https://www.pexels.com/photo/brown-painted-wall-on-dim-light-1055613/",
         "src": "palau.jpg",
@@ -46,7 +42,6 @@
     },
     {
         "title": "Table Mountain",
-        "date": "October 16, 2020",
         "credit": "Photo by Jan Kopriva",
         "linkToAuthor": "https://www.pexels.com/photo/light-streaks-3290601/",
         "src": "table-mountain.jpg",
@@ -55,7 +50,6 @@
     },
     {
         "title": "Abstract architecture black and white boardwalk",
-        "date": "October 14, 2020",
         "credit": "Photo by Pixabay",
         "linkToAuthor": "https://www.pexels.com/photo/abstract-architecture-black-and-white-boardwalk-262367/",
         "src": "boardwalk.jpg",
@@ -64,7 +58,6 @@
     },
     {
         "title": "Person holding glass mason jar with night sky background",
-        "date": "October 12, 2020",
         "credit": "Photo by Rakicevic Nenad",
         "linkToAuthor": "https://www.pexels.com/photo/silhouette-of-person-holding-glass-mason-jar-1274260/",
         "src": "glass-jar.jpg",
@@ -72,35 +65,31 @@
         "imgDir": "/images/"
     },
     {
-        "title": "Radio City Music Hall During Night Time",
-        "date": "October 11, 2020",
-        "credit": "Photo by Bao Dang",
+        "title": "Fragment",
+        "credit": "When I Was Me (2021) - Quindrie Press",
         "linkToAuthor": "https://www.pexels.com/photo/radio-city-music-hall-during-night-time-3700369/",
-        "src": "music-hall.jpg",
-        "alt": "Music hall with bright lights during night time",
+        "src": "wheniwasme.jpg",
+        "alt": "Autobiographical Trans Comic",
         "imgDir": "/images/"
     },
     {
-        "title": "City Building Office Architecture",
-        "date": "October 10, 2020",
-        "credit": "Photo by Jayson Marquez",
+        "title": "SALT",
+        "credit": "Written by Ella Watts. FEAST (2025) - Discord Comics",
         "linkToAuthor": "https://www.pexels.com/photo/city-building-office-architecture-4850412/",
-        "src": "business-center.jpg",
-        "alt": "Tall highrise office building with winding architecture",
+        "src": "salt-cover.jpg",
+        "alt": "Cover of SALT",
         "imgDir": "/images/"
     },
     {
         "title": "Buildings during nighttime",
-        "date": "October 9, 2020",
         "credit": "Photo by Aleksandar Pasaric",
         "linkToAuthor": "https://www.pexels.com/photo/photo-of-buildings-during-nighttime-2603464/",
-        "src": "highrises-night.jpg",
+        "src": "interlude-page05.jpg",
         "alt": "Buildings during nighttime with orange lighting and water below",
         "imgDir": "/images/"
     },
     {
         "title": "Water Droplet Digital Wallpaper",
-        "date": "October 11, 2020",
         "credit": "Photo by Sourav Mishra",
         "linkToAuthor": "https://www.pexels.com/photo/water-droplet-digital-wallpaper-1100946/",
         "src": "water-drop.jpg",
@@ -109,7 +98,6 @@
     },
     {
         "title": "Man walking on the empty street",
-        "date": "October 15, 2020",
         "credit": "Photo by Marco Trinidad",
         "linkToAuthor": "https://www.pexels.com/photo/photo-of-empty-road-during-daytime-3295140/",
         "src": "empty-road.jpg",
@@ -118,7 +106,6 @@
     },
     {
         "title": "Gasoline station during nighttime",
-        "date": "October 23, 2020",
         "credit": "Photo by Artem Saranin",
         "linkToAuthor": "https://www.pexels.com/photo/gasoline-station-during-nighttime-1453781/",
         "src": "gas-station.jpg",

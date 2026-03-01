@@ -1,6 +1,12 @@
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 header .nav-main {
   margin: 1rem auto 0 auto;
-  max-width: 1100px;
+  max-width: 1400px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,6 +22,7 @@ header .nav-main .nav-list {
   align-items: center;
   padding-left: 0;
   list-style: none;
+  text-transform: uppercase;
   width: 100%;
 }
 header .nav-main .nav-list li {
@@ -50,7 +57,7 @@ header .intro {
   display: flex;
   justify-content: space-between;
   margin: 2rem auto 1rem auto;
-  max-width: 1100px;
+  max-width: 1400px;
   padding: 0 1.5rem;
 }
 header .intro div p {
@@ -61,31 +68,16 @@ header .intro div:first-child {
 }
 header .intro .home-button {
   display: block;
-  font-size: 28px;
-  font-size: clamp(26px, 4vw, 28px);
-  text-transform: uppercase;
-  color: #ff009d;
+  font-size: 38px;
+  font-size: clamp(26px, 4vw, 38px);
+  color: #ff0195;
   margin-bottom: 14px;
-}
-header .intro .hire-me {
-  border: 1px solid #111;
-  margin-top: 3px;
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-  height: fit-content;
-  height: -moz-fit-content;
-  border-radius: 3px;
-  background: #1e262b;
-  color: #fff;
-  font-weight: 400;
-  white-space: nowrap;
-}
-header .intro .hire-me:hover {
-  background: #1a1f24;
+  text-transform: uppercase;
+  font-family: "Georgia";
 }
 
 .main-gallery {
-  max-width: 1100px;
+  max-width: 1400px;
   margin: 3rem auto 0 auto;
 }
 
@@ -97,7 +89,7 @@ header .intro .hire-me:hover {
 .gallery-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
-  max-width: 1100px;
+  max-width: 1400px;
   gap: 50px;
   margin: 1.5rem auto 1rem auto;
   list-style: none;
@@ -129,7 +121,7 @@ header .intro .hire-me:hover {
 .gallery-item a .gallery-photo {
   max-width: 100%;
   height: 500px;
-  max-height: 500px;
+  max-height: 100%;
   object-fit: cover;
   border-radius: 2px;
   filter: brightness(99%);
@@ -144,16 +136,16 @@ header .intro .hire-me:hover {
 .image-grid {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
   gap: 8px;
-  max-width: 1100px;
-  margin: 1rem auto 3rem auto;
+  max-width: 1400px;
+  margin: 1rem auto 1rem auto;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
 .image-grid .image-container {
   width: 100%;
-  height: 20rem;
+  height: 21.1rem;
   overflow: hidden;
   border-radius: 2px;
 }
@@ -218,7 +210,7 @@ header .intro .hire-me:hover {
   background: rgb(237, 237, 237);
 }
 .featured-img .image-description .credit {
-  text-decoration: none;
+  text-decoration: underline;
 }
 .featured-img .image-description .credit:hover {
   text-decoration: none;
@@ -276,8 +268,8 @@ header .intro .hire-me:hover {
 }
 .contact-form button {
   margin-bottom: 36px;
-  background: #ff009d;
-  background: #ff009d;
+  background: rgb(255, 0, 170);
+  background: rgb(255, 0, 170);
   padding: 11px 1.35rem;
   border-radius: 3px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -290,7 +282,7 @@ header .intro .hire-me:hover {
 .contact-form button:hover {
   border: none;
   cursor: pointer;
-  background: rgb(23, 100, 209);
+  background: rgb(255, 152, 209);
 }
 
 footer {
@@ -305,7 +297,7 @@ footer a {
   color: #212121;
 }
 footer a:hover {
-  color: #ff009d;
+  color: #ff0195;
 }
 
 .social-links {
@@ -409,7 +401,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background: #fcfcfc;
+  background: #ffffff;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 16px;
   line-height: 1.6;
@@ -423,35 +415,35 @@ img {
 }
 
 p {
-  font-size: 1rem;
-  font-size: clamp(1rem, 3vw, 1.0625rem);
+  font-size: 1.2rem;
+  font-size: clamp(1rem, 3vw, 1.2rem);
   line-height: 1.5;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Georgia", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 a {
-  color: #2540AD;
+  color: #ff0195;
   text-decoration: none;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 a:hover, a:focus {
   text-decoration: none;
-  color: #1836AF;
+  color: #ff0195;
 }
 
 main p {
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 main h1, main h2, main h3, main h4, main h5, main h6 {
   margin-bottom: 24px;
 }
 main .gallery {
   margin: 3rem auto;
-  max-width: 1100px;
+  max-width: 1400px;
   padding: 0 1.5rem;
 }
 main .gallery-header {
-  max-width: 1100px;
+  max-width: 1400px;
   padding: 0 1.5rem;
   margin: 0 auto;
   margin-bottom: 2rem;
@@ -520,14 +512,14 @@ h2, .h2 {
   justify-content: center;
   align-items: flex-start;
   margin: 0 auto 1em auto;
-  max-width: 1100px;
+  max-width: 1400px;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   color: #212141;
 }
 .page-banner p {
-  font-size: 1rem;
-  font-size: clamp(1.0625rem, 3vw, 1.2rem);
+  font-size: 1.5rem;
+  font-size: clamp(1.0625rem, 3vw, 1.5rem);
 }
 .page-banner h1 {
   margin-bottom: 0.75rem;
