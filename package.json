@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tannerdolby/eleventy-photo-gallery.git"
+    "url": "git+https://github.com/fanficciera/eleventy-photo-gallery.git"
   },
   "bugs": {
-    "url": "https://github.com/tannerdolby/eleventy-photo-gallery/issues"
+    "url": "https://github.com/fanficciera/eleventy-photo-gallery/issues"
   },
   "author": {
     "name": "Tanner Dolby",
-    "url": "https://github.com/tannerdolby"
+    "url": "https://github.com/fanficciera"
   },
   "keywords": [
     "Photo Gallery",
@@ -30,7 +30,7 @@
     "Eleventy",
     "11ty"
   ],
-  "homepage": "https://github.com/tannerdolby/eleventy-photo-gallery#readme",
+  "homepage": "https://github.com/fanficciera/eleventy-photo-gallery#readme",
   "license": "MIT",
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
