@@ -1,17 +1,20 @@
 ---
-title: John's Photo Gallery
+title: Illustration
 eleventyNavigation:
-  key: Gallery
+  key: Illustration
   order: 2
 layout: main.njk
-permalink: "/gallery/"
-meta_desc: A collection of images from John Smith's gallery.
+permalink: "/Illustration/"
+meta_desc: Paz Campos' art portfolio.
 url: https://eleventy-gallery.netlify.app/gallery
 img: /images/terrace-window.jpg
 alt: Terrace outside shop window with green plants and pink tree on night street
 cardType: summary_large_image
+description: "Paz Campos is a visual artist, illustrator & cartoonist based in Santiago de Chile. His work has been featured in several mediums from webgames to award-winning comic anthologies. Self-publishing is his greatest love."
 ---
 
-<h1 class="gallery-h1">{{ title }}</h1>
+<div class="page-banner">
+  <p>{{ description }}</p>
+</div>
 
 {% include "partials/feature-gallery.njk" %}
